@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_action"
+        android:icon="@drawable/ic_acv"
+        android:title="ACTION" />
+
+    <item
+        android:id="@+id/nav_horror"
+        android:icon="@drawable/ic_action"
+        android:title="HORROR" />
+
+    <item
+        android:id="@+id/nav_romance"
+        android:icon="@drawable/ic_romance"
+        android:title="ROMANCE" />
+    <item
+        android:id="@+id/nav_fantasy"
+        android:icon="@drawable/ic_fantasy"
+        android:title="FANTASY" />
+
+    <item
+        android:id="@+id/nav_sci_fic"
+        android:icon="@drawable/ic_science"
+        android:title="SCI_FIC" />
+
+</menu>

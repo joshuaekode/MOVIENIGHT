@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_action">
+
+    <fragment
+        android:id="@+id/nav_action"
+        android:name="com.josh.movienight.ui.home.HomeFragment"
+        android:label="ACTION"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_horror"
+        android:name="com.josh.movienight.ui.dashboard.DashboardFragment"
+        android:label="HORROR"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_romance"
+        android:name="com.josh.movienight.ui.notifications.NotificationsFragment"
+        android:label="ROMANCE"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/nav_fantasy"
+        android:name="com.josh.movienight.fantasyFragment"
+        android:label="FANTASY"
+        tools:layout="@layout/fragment_fantasy" />
+    <fragment
+        android:id="@+id/nav_sci_fic"
+        android:name="com.josh.movienight.sci_fic_Fragment"
+        android:label="SCI_FIC"
+        tools:layout="@layout/fragment_sci_fic_" />
+</navigation>
